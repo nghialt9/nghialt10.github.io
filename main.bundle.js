@@ -695,7 +695,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var CustomerService = (function () {
     function CustomerService(_http) {
         this._http = _http;
-        this.baseUrl = 'https://bea23387.ngrok.io/api/customer/';
+        this.baseUrl = 'https://c8e89010.ngrok.io/api/customer/';
     }
     CustomerService.prototype.getCustomers = function () {
         return this._http.get(this.baseUrl + 'getcustomers')
